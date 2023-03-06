@@ -50,11 +50,11 @@ nav a:hover {
 }
 */
 
-/* CSS code for the menu bar */
+/* CSS code for the menu bar 
 
 .menu-bar {
-  background-color: #2b3e50; /* Dark blue */
-  color: #fff; /* Light text color */
+  background-color: #2b3e50; /* Dark blue 
+  color: #fff; /* Light text color 
   position: relative;
   height: 50px;
 }
@@ -72,18 +72,18 @@ nav a:hover {
 }
 
 .menu-bar a {
-  color: #fff; /* Light text color */
+  color: #fff; /* Light text color 
   text-decoration: none;
   padding: 10px;
   display: block;
 }
 
 .menu-bar a:hover {
-  background-color: #fff; /* White */
-  color: #2b3e50; /* Dark blue */
+  background-color: #fff; /* White 
+  color: #2b3e50; /* Dark blue 
 }
 
-/* Media query for small screens */
+/* Media query for small screens 
 @media only screen and (max-width: 600px) {
   .menu-bar ul {
     flex-direction: column;
@@ -94,3 +94,4 @@ nav a:hover {
     margin: 10px 0;
   }
 }
+*/
