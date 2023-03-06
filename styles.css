@@ -1,0 +1,37 @@
+nav {
+  background-color: #2b3e50;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly; /* Center the contents horizontally */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for the list items */
+  justify-content: space-evenly;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #34495e;
+}
+
+footer {
+	background-color: #2b3e50;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

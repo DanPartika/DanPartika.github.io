@@ -1,0 +1,19 @@
+{
+  "name": "virginiasmassage",
+  "version": "1.0.0",
+  "description": "A basic website describing Virginias massage services",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanPartika/Virginia-s-Massage.git"
+  },
+  "author": "Daniel Partika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanPartika/Virginia-s-Massage/issues"
+  },
+  "homepage": "https://github.com/DanPartika/Virginia-s-Massage#readme"
+}
