@@ -1,5 +1,7 @@
 nav {
   background-color: #2b3e50;
+  color: #fff;
+  position: relative;
   height: 50px;
   display: flex;
   justify-content: space-evenly; /* Center the contents horizontally */
@@ -10,11 +12,14 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex; /* Use flexbox for the list items */
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 nav li {
   margin: 0 20px;
+  /*flex-basis: calc(33.33% - 20px);
+	max-width: calc(33.33% - 20px);*/
 }
 
 nav a {
@@ -35,3 +40,12 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+
+
+
+/*
+nav a:hover {
+	background-color: #fff; /* White 
+	color: #2b3e50; /* Dark blue 
+}
+*/
