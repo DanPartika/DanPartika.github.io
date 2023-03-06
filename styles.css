@@ -49,3 +49,48 @@ nav a:hover {
 	color: #2b3e50; /* Dark blue 
 }
 */
+
+/* CSS code for the menu bar */
+
+.menu-bar {
+  background-color: #2b3e50; /* Dark blue */
+  color: #fff; /* Light text color */
+  position: relative;
+  height: 50px;
+}
+
+.menu-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-bar li {
+  margin: 0 10px;
+}
+
+.menu-bar a {
+  color: #fff; /* Light text color */
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.menu-bar a:hover {
+  background-color: #fff; /* White */
+  color: #2b3e50; /* Dark blue */
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  .menu-bar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-bar li {
+    margin: 10px 0;
+  }
+}
