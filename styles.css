@@ -1,3 +1,8 @@
+body {
+	background-color: #f2f2f2; /* Light gray */
+	color: #333; /* Dark text color */
+}
+
 nav {
   background-color: #2b3e50;
   height: 50px;
