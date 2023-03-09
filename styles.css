@@ -1,37 +1,77 @@
-nav {
+.menu-bar {
   background-color: #2b3e50;
   color: #fff;
   position: relative;
+}
+
+nav {
+
   height: 50px;
   display: flex;
   justify-content: space-evenly; /* Center the contents horizontally */
 }
 
-nav ul {
+.menu-bar ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex; /* Use flexbox for the list items */
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*?maybe get rid of this*/
   justify-content: space-between;
 }
 
-nav li {
-  margin: 0 20px;
-  /*flex-basis: calc(33.33% - 20px);
-	max-width: calc(33.33% - 20px);*/
+.menu-bar li {
+  margin: 0 20px; /*?10 px*/
+  position: relative;
+  /*flex-basis: calc(25% - 20px);
+	max-width: calc(25% - 20px);*/
 }
 
-nav a {
+.menu-bar a {
   display: block;
   color: #ffffff;
   text-decoration: none;
-  padding: 15px;
+  padding: 15px; /*?10px*/
   transition: background-color 0.3s ease;
 }
 
 nav a:hover {
   background-color: #34495e;
+  color:#fff;
+}
+
+/* Dropdown menu styles */
+.menu-bar .dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #2b3e50; 
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #2b3e50;  /* add secondary color here*/
+  z-index: 1;
+}
+
+.menu-bar .dropdown:hover ul {
+  display: block;
+}
+
+.menu-bar .dropdown ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar .dropdown ul li a {
+  color: #2b3e50; /* Dark blue */
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.menu-bar .dropdown ul li a:hover {
+  background-color: #34495e; /* Dark blue */
 }
 
 footer {
@@ -40,58 +80,3 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
-
-
-
-/*
-nav a:hover {
-	background-color: #fff; /* White 
-	color: #2b3e50; /* Dark blue 
-}
-*/
-
-/* CSS code for the menu bar 
-
-.menu-bar {
-  background-color: #2b3e50; /* Dark blue 
-  color: #fff; /* Light text color 
-  position: relative;
-  height: 50px;
-}
-
-.menu-bar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-bar li {
-  margin: 0 10px;
-}
-
-.menu-bar a {
-  color: #fff; /* Light text color 
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-
-.menu-bar a:hover {
-  background-color: #fff; /* White 
-  color: #2b3e50; /* Dark blue 
-}
-
-/* Media query for small screens 
-@media only screen and (max-width: 600px) {
-  .menu-bar ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu-bar li {
-    margin: 10px 0;
-  }
-}
-*/
