@@ -10,6 +10,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts/email.js"></script>
   </head>
   <body>
     <header>
@@ -39,6 +40,21 @@
         <h3>
           Virginia@virginiamassage.com
         </h3>
+        <form>
+          <label for="sender-email">Sender's Email Address:</label>
+          <input type="email" id="sender-email" name="sender-email"><br>
+        
+          <label for="recipient-email">Recipient's Email Address:</label>
+          <input type="email" id="recipient-email" name="recipient-email"><br>
+        
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject"><br>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+        
+          <button onclick="sendEmail()">Send Email</button>
+        </form>
       <h2>Address</h2>
       <p>
         <a href="https://www.google.com/maps" target="_blank">123 Adams St. Clifton, NJ 07013</a>
